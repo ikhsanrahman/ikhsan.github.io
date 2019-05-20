@@ -324,16 +324,18 @@ button:focus {
       align-self: center;
       text-align: left; }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
-        padding-right: 125px;}
+        padding-right: 100px;}
       .home_banner_area .banner_inner .banner_content .media .d-flex img {
-        height: 520px;
-        width: 450px;
-        position: relative;
-        /* left: 50px; */
+        height: 580px;
+        /* width: 470px; */
+
       }
       .home_banner_area .banner_inner .banner_content .media .media-body {
         vertical-align: middle;
-        align-self: center; }
+        align-self: center;
+        text-align: justify;
+        margin-right: 60px;
+      }
 
 .blog_banner {
   min-height: 780px;
@@ -2543,7 +2545,7 @@ h6 {
       background: #e8e8e8; }
       .tools_expert .skill_main .skill_item .progress .progress-bar {
         width: 0%;
-        transition: width .6s ease;
+        /* transition: width .6s ease; */
         height: 10px;
         border-radius: 5px;
         vertical-align: middle;
